@@ -1,0 +1,54 @@
+# Gradle
+.gradle/
+build/
+**/build/
+**/release/
+app/release
+
+# Local configuration
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+captures/
+.navigation/
+
+# Kotlin
+.kotlin/
+
+# Generated files
+bin/
+gen/
+out/
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# APKs & Bundles
+*.apk
+*.aab
+*.aar
+*.ap_
+
+# Dalvik
+*.dex
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Signing keys (IMPORTANT)
+*.jks
+*.keystore
+*.key
+*.pem
+*.p12
+key.properties
+keystore.properties
+app-signing.properties
+.hotswan/
