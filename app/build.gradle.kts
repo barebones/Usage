@@ -7,10 +7,10 @@ plugins {
 
 android {
     namespace = "github.barebones.usage"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
+    compileSdk = 37
+
+    buildFeatures{
+        buildConfig = true
     }
 
     defaultConfig {
